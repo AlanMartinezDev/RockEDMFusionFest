@@ -12,5 +12,8 @@
     "HTML"
   ],
   "author": "Alan Martínez",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.68.0"
+  }
 }
