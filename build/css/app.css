@@ -312,6 +312,7 @@ template {
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-padding-top: 0rem;
 }
 
 *,
@@ -371,6 +372,13 @@ img {
 
 .header {
   background-color: #4cb8b3;
+}
+@media (min-width: 768px) {
+  .header.fijo {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0.1rem 0.2rem 0.3rem #333;
+  }
 }
 .header h1 {
   color: #ffffff;
